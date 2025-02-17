@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header{
+    background-color: green;
+    height: 300px;
+    flex-basis: 100%;
+    margin: 10px;
+    
+}
+
+.one{
+    background-color: blue;
+    height:200px;
+    flex-basis: 30%;
+    margin: 10px;
+}
+.two{
+    background-color: blue;
+    height:200px;
+    flex-basis: 30%;
+    margin: 10px;
+}
+.three{
+    background-color: blue;
+    height:200px;
+    flex-basis: 30%;
+    margin: 10px;
+}
+
+.f1{
+    background-color:brown;
+    height:100px;
+    flex-basis: 20%;
+    margin: 10px;
+}
+.f2{
+    background-color:brown;
+    height:100px;
+    flex-basis: 20%;
+    margin: 10px;
+}
+.f3{
+    background-color:brown;
+    height:100px;
+    flex-basis: 20%;
+    margin: 10px;
+}
+.f4{
+    background-color:brown;
+    height:100px;
+    flex-basis: 20%;
+    margin: 10px;
+}
+@media screen and (max-width:850px) {
+    .one{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .two{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .three{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    
+    .f1{
+        background-color:brown;
+        height:100px;
+        flex-basis: 40%;
+        margin: 10px;
+    }
+    .f2{
+        background-color:brown;
+        height:100px;
+        flex-basis: 40%;
+        margin: 10px;
+    }
+    .f3{
+        background-color:brown;
+        height:100px;
+        flex-basis: 40%;
+        margin: 10px;
+    }
+    .f4{
+        background-color:brown;
+        height:100px;
+        flex-basis: 40%;
+        margin: 10px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .one{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .two{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .three{
+        background-color: blue;
+        height:200px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    
+    .f1{
+        background-color:brown;
+        height:100px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .f2{
+        background-color:brown;
+        height:100px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .f3{
+        background-color:brown;
+        height:100px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .f4{
+        background-color:brown;
+        height:100px;
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    
+}
+
+

@@ -1,0 +1,21 @@
+.container{
+    background-color: blue;
+    color: whitesmoke;
+    width: 500px;
+    
+}
+.container > center > button{
+    background-color: red;
+}
+#res{
+    color: yellow;
+}
+#score{
+    color: goldenrod;
+}
+.con{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
